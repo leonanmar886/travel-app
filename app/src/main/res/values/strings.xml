@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Travel</string>
+    <string name="header_title">Aplicativo para calcular o consumo de combustível</string>
+    <string name="combustivelLabel">Combustível</string>
+    <string name="combustivelHint">Digite o valor do litro do combustível</string>
+    <string name="distanciaLabel">Distância</string>
+    <string name="distanciaHint">Digite a distância percorrida</string>
+    <string name="consumoLabel">Consumo</string>
+    <string name="consumoHint">Digite o consumo do veículo em km/l</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">O valor que você irá gastar é:</string>
 </resources>

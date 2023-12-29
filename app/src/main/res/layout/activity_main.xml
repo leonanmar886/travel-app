@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Aplicativo para calcular o consumo de combustível"
+        android:text="@string/header_title"
         android:textSize="30sp"
     />
 
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:hint="Digite o valor do litro do combustível"
+        android:hint="@string/combustivelHint"
         android:inputType="numberDecimal"
         android:textSize="20sp"
     />
@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:labelFor="@+id/combustivel"
-        android:text="Combustível"
+        android:text="@string/combustivelLabel"
         android:textSize="15sp"
         android:textAlignment="center"
     />
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:hint="Digite a distância percorrida"
+        android:hint="@string/distanciaHint"
         android:inputType="numberDecimal"
         android:textSize="20sp"
     />
@@ -50,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:labelFor="@+id/distancia"
-        android:text="Distância"
+        android:text="@string/distanciaLabel"
         android:textSize="15sp"
         android:textAlignment="center"
     />
@@ -60,7 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:hint="Digite o consumo do veículo em km/l"
+        android:hint="@string/consumoHint"
         android:inputType="numberDecimal"
         android:textSize="20sp"
     />
@@ -69,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:labelFor="@+id/consumo"
-        android:text="Consumo"
+        android:text="@string/consumoLabel"
         android:textSize="15sp"
         android:textAlignment="center"
     />
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="O valor que você irá gastar é:"
+        android:text="@string/resultado"
         android:textSize="20sp"
         android:textAlignment="center"
     />
@@ -98,7 +98,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="Calcular"
+        android:text="@string/calcular"
         android:textSize="30sp"
     />
 
