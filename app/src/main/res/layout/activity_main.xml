@@ -4,15 +4,103 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Aplicativo para calcular o consumo de combustível"
+        android:textSize="30sp"
+    />
+
+    <EditText
+        android:id="@+id/combustivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Digite o valor do litro do combustível"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/combustivel"
+        android:text="Combustível"
+        android:textSize="15sp"
+        android:textAlignment="center"
+    />
+
+    <EditText
+        android:id="@+id/distancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Digite a distância percorrida"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/distancia"
+        android:text="Distância"
+        android:textSize="15sp"
+        android:textAlignment="center"
+    />
+
+    <EditText
+        android:id="@+id/consumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Digite o consumo do veículo em km/l"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/consumo"
+        android:text="Consumo"
+        android:textSize="15sp"
+        android:textAlignment="center"
+    />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="25dp"
+        android:text="O valor que você irá gastar é:"
+        android:textSize="20sp"
+        android:textAlignment="center"
+    />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="R$ 0,00"
+        android:textSize="40sp"
+        android:textAlignment="center"
+    />
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Calcular"
+        android:textSize="30sp"
+    />
+
 
 </LinearLayout>
